@@ -1,0 +1,1174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    transition: all 0.5s;
+
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.parent {
+    z-index: 5;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav {
+
+    margin-top: -2rem;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    width: 33.33%;
+}
+
+.logo img {
+    width: 150px;
+    margin-left: 5rem;
+}
+
+.nav-link {
+    box-sizing: border-box;
+    float: left;
+    margin-top: 4.4rem;
+    width: 33.33%;
+    margin-left: 9rem;
+}
+
+.nav-link a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+.nav-link :hover {
+    border-bottom: 2px rgb(255, 39, 39) solid;
+    background-color: rgb(231, 231, 231);
+}
+
+
+.darkmode {
+    margin-top: -1.8rem;
+    float: left;
+    width: 33.33%;
+}
+
+.nav i {
+    color: black;
+    margin-left: 45rem;
+    border-radius: 50%;
+}
+
+.nav span {
+    font-family: "Hanken Grotesk", sans-serif;
+    color: black;
+    font-weight: 300;
+    border-bottom: 1px red solid;
+    font-size: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* nav */
+
+.text {
+    margin-top: 7rem;
+    box-sizing: border-box;
+    background-color: rgba(221, 218, 218, 0.479);
+    width: 100%;
+    height: 100%;
+    padding: 0.2px;
+    border-radius: 1%;
+}
+
+.intro {
+    width: 40%;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 520px;
+    float: left;
+    margin-left: 9rem;
+    margin-top: 5rem;
+}
+
+
+.image {
+    width: 40%;
+    transition: all 1s;
+    float: left;
+    width: 580px;
+
+}
+
+.image :hover {
+    transform: rotatey(180deg);
+}
+
+.image img {
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+    width: 580px;
+}
+
+
+.intro h1 {
+    font-size: 35px;
+    padding: 2px;
+    margin: 1px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 200;
+}
+
+.intro p {
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 200;
+    margin-top: 2rem;
+    margin-right: 8rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-content: start;
+    gap: 2rem;
+    height: 30vh;
+    margin-top: 4rem;
+    margin-right: 4rem;
+
+
+
+}
+
+.book {
+    font-size: 15px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    background-color: rgb(202, 4, 4);
+    color: white;
+    padding: 10px;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 34%;
+
+
+}
+
+.video {
+    font-size: 13px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    color: black;
+    padding: 2px;
+    border-top: 10px rgb(175, 15, 15) solid;
+    border-bottom: 10px rgb(255, 255, 255) solid;
+    border-left: 10px rgb(202, 4, 4) solid;
+    border-right: 10px rgb(255, 255, 255) solid;
+    border-width: 14px;
+    border-radius: 50%;
+
+}
+
+
+.watch {
+    margin-left: 1rem;
+    font-size: 13px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+/* intro */
+.info {
+    padding: 5px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+
+}
+
+.info small {
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 3rem;
+    font-size: 18px;
+    margin: 1px;
+    font-family: "Kaushan Script";
+    font-weight: 400;
+    color: rgb(83, 82, 82);
+
+}
+
+.info h1 {
+    font-size: 30px;
+    margin: 1px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 300;
+    padding: 8px;
+    color: rgb(5, 5, 5);
+
+}
+
+.info span {
+    padding: 8px;
+    color: rgb(223, 12, 12);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 0px;
+    margin-top: 8rem;
+    transition: all 0.5s;
+    width: 99%;
+    text-align: center;
+
+}
+
+
+
+.card1 {
+   
+    width: 28.33%;
+    margin: 15px;
+    /* float: left; */
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.wave {
+    padding: 15px;
+    position: relative;
+
+
+
+}
+
+svg {
+
+    position: absolute;
+    top: 10%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    margin-top: -5rem;
+
+
+}
+
+.layer1 {
+    position: absolute;
+    width: 10%;
+    height: 20vh;
+    top: 0%;
+    left: 105%;
+    background-color: rgba(128, 128, 128, 0.26);
+    padding: 5px;
+    margin-top: 5rem;
+}
+
+.layer1 a {
+    color: gray;
+    padding: 5px;
+
+}
+
+.layer1 i {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.card1:hover .layer1 {
+    top: 0%;
+    left: 79%;
+
+}
+
+.layer1:hover i {
+    transform: scale(5.5, 5, 5);
+}
+
+.card2 {
+    border-radius: 10px;
+    /* float: left; */
+    width: 28.33%;
+    transition: all 1s;
+    position: relative;
+    overflow: hidden;
+     margin: 0px;
+     height: 702px;
+
+}
+
+.layer2 {
+    position: absolute;
+    width: 10%;
+    height: 20vh;
+    top: 0%;
+    left: 105%;
+    background-color: rgba(128, 128, 128, 0.479);
+    padding: 5px;
+    margin-top: 5rem;
+}
+
+.layer2 a {
+    color: rgb(88, 86, 86);
+    padding: 5px;
+
+}
+
+.layer2 i {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.card2:hover .layer2 {
+    top: 0%;
+    left: 79%;
+
+}
+
+
+
+.card3 {
+     border-radius: 10px;
+    /* float: left; */
+    width: 28.33%;
+    border-radius: 5%;
+    position: relative;
+    overflow: hidden;
+     margin: 15px;
+}
+
+.layer3 {
+    position: absolute;
+    width: 10%;
+    height: 20vh;
+    top: 0%;
+    left: 105%;
+    background-color: rgba(128, 128, 128, 0.26);
+    padding: 5px;
+    margin-top: 5rem;
+}
+
+.layer3 a {
+    color: gray;
+    padding: 5px;
+
+}
+
+.layer3 i {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.card3:hover .layer3 {
+    top: 0%;
+    left: 79%;
+
+}
+
+
+.card img {
+    width: 430px;
+    margin-top: 2rem;
+
+}
+
+.card1:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.card2:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.card3:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+.card h4 {
+    font-size: 23px;
+    margin-top: 2rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 800;
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.card1 small {
+    font-size: 17px;
+    margin: 1px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    padding: 8px;
+    color: rgb(5, 5, 5);
+}
+
+.card2 small {
+    font-size: 17px;
+    margin: 1px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    padding: 8px;
+    color: rgb(5, 5, 5);
+}
+
+.card3 small {
+    font-size: 17px;
+    margin: 1px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    padding: 8px;
+    color: rgb(5, 5, 5);
+}
+
+.card p {
+    font-size: 16px;
+    margin: 1px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 300;
+    padding: 8px;
+    color: rgb(5, 5, 5);
+}
+
+/* card */
+
+.info2 {
+    margin-bottom: -3rem;
+    width: 80%;
+    text-align: center;
+
+}
+
+.info2 small {
+    font-size: 16px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 300;
+    color: rgb(83, 82, 82);
+
+}
+
+.info2 h1 {
+    margin-bottom: -2rem;
+    font-size: 30px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 300;
+    color: rgb(5, 5, 5);
+
+}
+
+.info2 span {
+
+    color: rgb(223, 12, 12);
+}
+
+.menu {
+    width: 100%;
+    margin-top: 7rem;
+    background-color: rgb(236, 230, 230);
+
+
+
+}
+
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+}
+
+
+.gallery img {
+    width: 400px;
+}
+
+.one {
+    margin-top: -4rem;
+    overflow: hidden;
+    position: relative;
+    transition: 3s;
+    width: 400px;
+}
+
+
+
+.cover1 {
+    background-color: rgb(0, 0, 0, 70%);
+    width: 400px;
+    height: 30.5%;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: aliceblue;
+    opacity: 0;
+}
+
+
+
+.photo1:hover .cover1 {
+    top: 0%;
+    opacity: 1;
+
+
+}
+
+.cover2 {
+    background-color: rgb(0, 0, 0, 70%);
+    width: 400px;
+    height: 110%;
+    position: absolute;
+    top: 105%;
+    left: 0%;
+    opacity: 0;
+    color: aliceblue;
+}
+
+.photo2:hover .cover2 {
+    top: 31%;
+    opacity: 1;
+}
+
+
+.cover3 {
+    background-color: rgb(0, 0, 0, 70%);
+    width: 400px;
+    height: 62%;
+    color: aliceblue;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    opacity: 0;
+}
+
+.photo3:hover .cover3 {
+    opacity: 1;
+    top: 0%;
+
+}
+
+.cover4 {
+    background-color: rgb(0, 0, 0, 70%);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    opacity: 0;
+}
+
+.photo4:hover .cover4 {
+    opacity: 1;
+    top: 62.5%;
+}
+
+.cover5 {
+    background-color: rgb(0, 0, 0, 70%);
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    opacity: 0;
+    color: white;
+}
+
+.photo5:hover .cover5 {
+    opacity: 1;
+    top: 0%;
+
+}
+
+.cover6 {
+    background-color: rgb(0, 0, 0, 70%);
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    opacity: 0;
+    color: white;
+}
+
+
+.photo6:hover .cover6 {
+    opacity: 1;
+    top: 28.2%;
+}
+
+.cover7 {
+    background-color: rgb(0, 0, 0, 70%);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    opacity: 0;
+    color: white;
+}
+
+.photo7:hover .cover7 {
+    opacity: 1;
+    top: 57%;
+}
+
+.tow {
+    position: relative;
+
+    width: 400px;
+
+    margin-top: 8rem;
+}
+
+.three {
+    width: 400px;
+    position: relative;
+
+    margin-top: 0.5rem;
+}
+
+.gallery h4 {
+    font-size: 25px;
+    margin-top: 5rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 300;
+    padding: 8px;
+
+    color: white;
+}
+
+
+.gallery p {
+    font-size: 17px;
+    margin: 1px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 300;
+    padding: 8px;
+    color: white;
+
+}
+
+/* menu */
+
+.location {
+   
+    margin: auto;
+      width: 98%;
+      height: 1600px;
+}
+
+.map {
+    margin-top: 2rem;
+    width: 80%;
+    margin: auto;
+    background-color: blue;
+}
+
+.map iframe{
+    width: 100%;
+    
+}
+
+.info3 {
+    text-align: center;
+     margin-top: 2rem;
+}
+
+.info3 small {
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 3rem;
+    font-size: 18px;
+    margin: 1px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    color: rgb(83, 82, 82);
+
+}
+
+.info3 h1 {
+    font-size: 40px;
+    margin: 1px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 300;
+    padding: 8px;
+    color: rgb(5, 5, 5);
+
+}
+
+.info3 span {
+    padding: 8px;
+    color: rgb(223, 12, 12);
+}
+
+.icon-map {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iconright {
+    width: 420px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.iconleft {
+    text-align: center;
+    width: 420px;
+    padding: 10px 10px 10px 10px;
+}
+
+.icon-map h5 {
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+    padding: 3px;
+    color: rgb(82, 81, 81);
+    text-align: left;
+
+}
+
+
+.icon-map p {
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 200;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.icon-map a {
+
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+}
+
+
+
+.mail {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(233, 216, 216, 0.2);
+}
+
+.phone {
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(233, 216, 216, 0.2);
+}
+
+.opening {
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(233, 216, 216, 0.2);
+}
+
+.addrees {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color: rgba(233, 216, 216, 0.2);
+}
+
+.icon-map i {
+
+    width: 50px;
+    font-size: 17px;
+    margin-right: 2rem;
+    padding: 7px;
+    color: aliceblue;
+    background-color: rgb(189, 34, 34);
+    border-radius: 90px;
+    text-align: center;
+}
+
+.input-box {
+    border-radius: 40px;
+    width: 99%;
+   margin: auto;
+
+}
+
+.name {
+
+   display: flex;
+   justify-content:center;
+    width: 100%;
+    height: 30%;
+    margin-top: 2rem;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.yourname {
+    width: 400px;
+    padding: 10px;
+    /* margin:auto; */
+    margin-right:10px ;
+
+}
+
+.yourmail {
+    width: 400px;
+    padding: 15px;
+   
+}
+
+.subject input {
+    width: 55.4%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.subject {
+    width: 99%;
+    display: block;
+    margin: auto;
+}
+
+.message1 {
+    width: 99%;
+  display: block;
+    height: 250px;
+    margin: auto;
+
+}
+.message1 input {
+    width: 55.4%;
+    padding: 80px;
+  display: block;
+    height: 240px;
+    margin: auto;
+
+}
+
+::placeholder {
+    font-size: 18px;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+
+.message1 ::placeholder {
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    text-align: left;
+
+}
+
+.name :hover {
+    border: 1px solid red;
+}
+
+.message1 :hover {
+    border: 1px solid red;
+}
+
+.subject :hover {
+    border: 1px solid red;
+}
+
+.message-link {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.message-link button {
+    width: 13%;
+    padding: 10px;
+    background-color: red;
+    border-radius: 37px;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 280;
+
+    font-family: "Hanken Grotesk", sans-serif;
+
+}
+
+.message-link button {
+    cursor: pointer;
+}
+
+/* location */
+
+.foter {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(43, 41, 41, 0.651);
+    margin-top: 2rem;
+
+}
+
+.sec1 {
+    padding: 8px 8px;
+    margin: 4rem 4rem;
+    width: 29%;
+}
+
+.sec1 h3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+
+
+}
+
+.sec1 p {
+    color: white;
+    font-size: 17px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 300;
+    padding: 3rem;
+
+}
+
+.sec1 h2 {
+    width: 60%;
+    padding: 10px;
+    text-align: right;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    border-bottom: 1px white solid;
+    font-size: 30px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 300;
+    color: white;
+
+}
+
+.sec1 i {
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.sec2 {
+    margin-top: 6rem;
+    width: 35%;
+}
+
+h3 img {
+    margin-right: 0.5rem;
+    width: 48px;
+}
+
+.sec2 h2 {
+    margin-left: -4rem;
+    font-size: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.sec2 p {
+    color: white;
+    font-size: 15px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 300;
+    padding: 1rem;
+    margin-left: -5rem;
+
+}
+
+.sec2 input {
+    width: 73%;
+    padding: 15px;
+    margin-left: -4.8rem;
+    margin-top: 2rem;
+}
+
+label {
+    border-radius: 30px;
+    color: white;
+    padding: 17px;
+    background-color: red;
+    margin-left: -0.2rem;
+}
+
+.sec2 a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.sec2 h4 {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-left: -5rem;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: -2rem;
+}
+
+.list ul {
+    margin-left: -11rem;
+    list-style: none;
+    margin-top: 2rem;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.list li {
+    padding: 0.2rem;
+}
+
+.list span {
+    color: brown;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.ul2 {
+    margin-right: 5rem;
+}
+
+.li1:hover a {
+    background-color: rgba(240, 248, 255, 0.466);
+    margin-left: 1rem;
+}
+
+.li2:hover a {
+    background-color: rgba(240, 248, 255, 0.466);
+    margin-left: 1rem;
+}
+
+.li3:hover a {
+    background-color: rgba(240, 248, 255, 0.466);
+    margin-left: 1rem;
+}
+
+.li4:hover a {
+    background-color: rgba(240, 248, 255, 0.466);
+    margin-left: 1rem;
+}
+
+.li5:hover a {
+    background-color: rgba(240, 248, 255, 0.466);
+    margin-left: 1rem;
+}
+
+.li6:hover a {
+    background-color: rgba(240, 248, 255, 0.466);
+    margin-left: 1rem;
+}
+
+.sec3 {
+    width: 29%;
+}
+
+.sec3 ul {
+    list-style: none;
+
+    padding: 1rem;
+}
+
+.sec3 i {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.877);
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.sec3 h4 {
+    text-align: left;
+    font-size: 25px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.sec3 span {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}

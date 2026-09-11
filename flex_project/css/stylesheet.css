@@ -1,0 +1,171 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background: linear-gradient(0deg, rgba(4, 9, 24, 1) 0%, rgba(9, 21, 64, 1) 90%);
+    letter-spacing: 0.5px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* start-nav */
+
+nav {
+
+    background-color: hsl(225, 23%, 24%);
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    padding: 20px 10px 20px 15px;
+
+
+}
+
+.logo {
+    width: 180px;
+    padding: 12px 10px 12px 10px;
+}
+
+.sun {
+    background-color: hsla(222, 93%, 6%, 0.284);
+    padding: 12px 10px 12px 10px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+/* end-nav */
+
+/* start-header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* background-color: brown;  */
+    margin: 50px;
+    padding: 15px 10px 15px 15px;
+}
+
+header h1 {
+    font-size: 25px;
+    color: hsl(200, 60%, 99%);
+    font-weight: 700;
+
+}
+
+.links {
+
+    margin-top: 12px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 14px;
+    color: hsl(0, 0%, 88%);
+    margin: 10px;
+    font-weight: 500;
+    background-color: hsla(221, 14%, 35%, 0.284);
+    padding: 15px 15px 15px 15px;
+    border-radius: 25px;
+
+}
+
+
+/* end-header */
+
+/* start-main */
+main {
+    width: 1440px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    height: 950px;
+    padding: auto;
+
+}
+
+
+.card {
+    width: 462px;
+    height: 210px;
+    background-color: hsla(180, 5%, 19%, 0.39);
+    border-radius: 25px;
+    padding: 50px 25px 50px 25px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card span {
+    font-size: 17px;
+    color: hsl(200, 60%, 99%);
+    font-weight: 500;
+    margin-top: 18px;
+
+}
+
+.card p {
+    font-size: 14px;
+    text-align: left;
+    color: hsl(200, 60%, 99%);
+    font-weight: 200;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+
+.card img {
+    width: 45px;
+    margin: 0px 20px -55px 20px;
+
+}
+
+
+.btn-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+
+.remove-btn {
+    color: hsl(200, 60%, 99%);
+    padding: 6px 15px 6px 15px;
+    margin: 5px;
+    background-color: hsla(226, 24%, 17%, 0.263);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* end-main */
+
+
+@media (min-width:375px) and (max-width:1080px){
+    body{
+       font-size: 8px;
+    }
+}
